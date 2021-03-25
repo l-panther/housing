@@ -1,0 +1,27 @@
+$(document).on("pagecreate", "#favourite-page", function() {
+	
+	$("#delfav-btn").bind("click", function() {
+		
+		var favourites = JSON.parse(localStorage.getItem("favourites"));
+		var thisPage = window.location.href;
+		var link = thisPage.split("=")[1];
+
+		var imagesrc = $(".property-image").attr("src");
+		var imagefl = imagesrc.split("/")[1];
+		var imageid = imagefl.split(".")[0];
+
+		var addFav = {
+			title: $("#property-road").text(),	
+		}
+
+		if (!favourites.some( fav => fav.link === link)) {
+			favourites.push(addFav);
+			var saved = localStorage.setItem("favourites", JSON.stringify(favourites));
+			alert("Saved");
+		} else {
+			alert("No");
+		}
+	
+	});
+});
+

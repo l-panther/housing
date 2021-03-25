@@ -1,0 +1,251 @@
+[
+	{
+		"id":1, 
+		"name":"32 Crook Street", 
+		"thumbnail":"crookst32.jpg", 
+		"shortdescription":"3 Bedroom House", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"price":"£3,810 / month",
+		"type":"House",
+		"bedrooms":"2 Bedrooms", 
+		"bathroom":"1 Bathroom", 
+		"garage":"0 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"crookst32.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Bathroom", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitch.jpg"}]
+	},
+	
+	
+	{
+		"id":2, 
+		"name":"58 Plush Street", 
+		"thumbnail": "plushst58.jpg", 
+		"shortdescription":"4 Bedroom House",  
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price":"£4,850 / month",
+		"type":"House",
+		"bedrooms":"4 Bedrooms", 
+		"bathroom":"2 Bathrooms", 
+		"garage":"1 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"plushst58.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	
+	{
+		"id":3, 
+		"name":"3 Made It Road", 
+		"thumbnail": "madeitrd3.jpg", 
+		"shortdescription":"3 Bedroom House", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£3845 / month",
+		"type":"House",
+		"bedrooms":"3 Bedrooms", 
+		"bathroom":"2 Bathroom", 
+		"garage":"0 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"madeitrd3.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	{
+		"id":4, 
+		"name":"55 High End Street", 
+		"thumbnail": "highendst55.jpg", 
+		"shortdescription":"3 Bedroom House", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£3980 / month",
+		"type":"House",
+		"bedrooms":"3 Bedrooms", 
+		"bathroom":"2 Bathrooms", 
+		"garage":"1 Garage", 
+		"garden":"No garden", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"highendst55.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	
+	{
+		"id":5, 
+		"name":"20 Well Off Street", 
+		"thumbnail": "welloffst20.jpg", 
+		"shortdescription":"4 Bedroom House", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£5200 / month",
+		"type":"House",
+		"bedrooms":"4 Bedrooms", 
+		"bathroom":"3 Bathrooms", 
+		"garage":"0 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"welloffst20.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	
+	{
+		"id":6, 
+		"name":"15 Tower Street", 
+		"thumbnail": "towerst15.jpg", 
+		"shortdescription":"2 Bedroom Flat", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£4950 / month",
+		"type":"Flat",
+		"bedrooms":"2 Bedrooms", 
+		"bathroom":"1 Bathrooms", 
+		"garage":"0 Garage",
+		"latitude": 51.89989,
+		"longitude": -0.8989898,
+		"images":[
+			{"name":"Outside", "imageslide":"towerst15.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Bathroom", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+
+	
+	{
+		"id":7, 
+		"name":"40 Cloud Road", 
+		"thumbnail": "cloudrd40.jpg", 
+		"shortdescription":"3 Bedroom Flat", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£2980 / month",
+		"type":"Flat",
+		"bedrooms":"3 Bedrooms", 
+		"bathroom":"1 Bathroom", 
+		"garage":"0 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"cloudrd40.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	
+	{
+		"id":8, 
+		"name":"16 Plush Street", 
+		"thumbnail": "plushst16.jpg", 
+		"shortdescription":"4 Bedroom Shared House", 		
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£4950 / month",
+		"type":"Shared",
+		"bedrooms":"4 Bedrooms", 
+		"bathroom":"2 Bathroom", 
+		"garage":"1 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"plushst16.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	
+	{
+		"id":9, 
+		"name":"14 Quality Street", 
+		"thumbnail": "qualityst14.jpg", 
+		"shortdescription":"3 Bedroom Shared House", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£3800 / month",
+		"type":"Shared",
+		"bedrooms":"3 Bedrooms", 
+		"bathroom":"2 Bathrooms", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"qualityst14.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},	
+
+	{
+		"id":10, 
+		"name":"19 Struggle Street", 
+		"thumbnail": "strugglest19.jpg", 
+		"shortdescription":"3 Bedroom Shared House", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£3980 / month",
+		"type":"Shared",
+		"bedrooms":"3 Bedrooms", 
+		"bathroom":"1 Bathroom", 
+		"garage":"0 Garage", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"strugglest19.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	
+	{
+		"id":11, 
+		"name":"6 Off Ends Rd", 
+		"thumbnail": "offendsrd6.jpg", 
+		"shortdescription":"2 Bedroom Studio", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£5200 / month",
+		"type":"Studio",
+		"bedrooms":"2 Large bedrooms", 
+		"bathroom":"2 En suite Bathroom", 
+		"garage":"0 Garage", 
+		"garden":"No garden", 
+		"latitude":120255,
+		"longitude":1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"offendsrd6.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}]
+	},
+	 
+	{
+		"id":12, 
+		"name":"28 Up Market Street", 
+		"thumbnail": "upmarketst28.jpg", 
+		"shortdescription":"2 Bedroom Studio", 
+		"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",  
+		"price": "£4950 / month",
+		"type":"Studio",
+		"bedrooms":"2 bedrooms", 
+		"bathroom":"2 En-suite Bathroom", 
+		"garage":"0 Garage", 
+		"garden":"No garden", 
+		"latitude": 120255,
+		"longitude": 1055050,
+		"images":[
+			{"name":"Outside", "imageslide":"upmarketst28.jpg"}, 
+			{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+			{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}] 
+	}
+	
+]

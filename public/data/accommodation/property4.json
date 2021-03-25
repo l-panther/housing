@@ -1,0 +1,16 @@
+{	
+	"id":4,
+	"name":"55 High End Street", 
+	"image":[
+		{"name":"Outside", "imageslide":"highendst55.jpg"}, 
+		{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+		{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+		{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}
+		],
+	"bedrooms":"3 Large bedrooms", 
+	"bathroom":"2 Small Bathrooms", 
+	"kitchen":"Small kitchen", 
+	"garden":"No garden", 
+	"lat":120255,
+	"longitude":1055050
+}

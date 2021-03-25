@@ -1,0 +1,18 @@
+{	
+	"id":1,
+	"name":"32 Crook Street", 
+	"price":"£3810 per month",
+	"image":[
+		{"name":"Outside", "imageslide":"crookst32.jpg"}, 
+		{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+		{"name":"Bathroom", "imageslide":"crookst32bathroom.jpg"}, 
+		{"name":"Kitchen", "imageslide":"crookst32kitch.jpg"}
+		],
+	"bedrooms":"3 bedrooms", 
+	"bathroom":"Bathroom", 
+	"kitchen":"Small kitchen", 
+	"garden":"No garden", 
+	"type":"Houses",
+	"lat":120255,
+	"longitude":1055050
+}

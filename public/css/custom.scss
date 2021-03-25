@@ -1,0 +1,872 @@
+/* ===================== RESET ===================== */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section,
+article,
+blockquote,
+figure,
+figcaption,
+ol,
+ul,
+li,
+a,
+table,
+th,
+tr,
+td,
+dl,
+dt,
+dd,
+form,
+label,
+legend,
+img,
+div,
+header,
+section,
+article,
+main,
+aside,
+footer,
+nav,
+span,
+em,
+audio,
+video,
+.ui-page,
+.ui-content,
+.ui-btn {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+section,
+article,
+header,
+footer,
+nav,
+aside,
+main,
+figure,
+figcaption, 
+.ui-header,
+.ui-navbar {
+    display: block;
+}
+
+.ui-header { width: 100%; }
+
+img,
+form,
+fieldset {
+    border: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ui-page, .ui-btn, .ui-text, .ui-link, .ui-input, input, .ui-input-search, ::placeholder, * { text-shadow: none !important; }
+
+
+/* ===================== DEFAULTS ===================== */
+body,
+.ui-page {
+    font-family: cursive;
+    font-family: "Montserrat";
+    color: #777;
+    width: 100%;
+    font-size: 14px;
+    background: #eee;
+    letter-spacing: 0.5px;
+    text-shadow: none !important;
+}
+
+form .ui-filterable {
+    width: 100%;
+}
+
+/* ===================== PAGE ===================== */
+.ui-page {
+    border: none;
+}
+
+.page-content {
+    width: 100%;
+    padding: 0px;
+}
+
+.page-content-10 {
+    width: 100%;
+    padding: 10px;
+}
+
+#login-page, #register-page, #list-property-page, #list-favourite-page, #index-page, #about-page, #contact-page {
+	background: url("../images/main/landing.jpg") no-repeat !important;
+	background-size: cover;
+	background-position: center, center;
+	max-width: 900px;
+}
+
+#account-page { background: #2e5f7d !important;}
+
+/* ===================== NAVIGATION ===================== */
+.ui-navbar {
+    padding: 5px;
+    margin-bottom: -2px;
+    overflow: hidden;
+    background: #000;
+}
+
+.ui-navbar img {
+    width: 30px;
+    height: 20px;
+    background: #011a39;
+}
+
+.ui-navbar .ui-btn {
+    background: #163c6a;
+    background: #011a39;
+}
+
+.ui-navbar i {
+    background: none;
+    font-size: 22px;
+    color: white;
+}
+
+/* ===================== SIDE MENU ===================== */
+#sideMenu {
+    background: #2e5f7d;
+    color: white;
+    width: 200px;
+}
+
+.panel-opts li:last-child {
+    border-top: 1px solid #3f3f3f;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.panel-opts a {
+    color: #f2f2f2 !important;
+}
+.panel-opts i {
+    margin-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#sideMenu .ui-panel-inner {
+    padding: 0px;
+}
+
+.profile {
+    background: #000;
+}
+
+.profile img {
+    width: 65%;
+    margin-top: 20px;
+    border: 1px solid #adadad;
+    border-radius: 100%;
+}
+
+.profile-opts li {
+    background: #fff !important;
+    color: #3f3f3f !important;
+}
+
+.profile li:last-child {
+    font-family: 'Neucha' !important;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+}
+
+#sideMenu h2 {
+    margin-bottom: 20px;
+}
+
+#sideMenu li:first-child {
+    margin-top: 0px;
+}
+
+#sideMenu li {
+    margin-top: 10px;
+}
+
+#sideMenu a {
+    font-weight: 100;
+    color: lightgrey;
+}
+
+/* ===================== LOGO ===================== */
+#logo {
+    width: 50px;
+    height: 20px;
+}
+
+/* ===================== BANNER ===================== */
+.banner {
+    width: 60%;
+	margin: 0 auto;
+		margin-top: 100px;
+    height: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner-form {
+    background: #011a39;
+}
+
+.banner-form img {
+    width: 50%;
+    border-radius: 100%;
+}
+
+/* ===================== FONTS ===================== */
+.w3-display-right h1,
+.w3-display-left p {
+    width: 100% !important;
+    font-size: 2em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px black !important;
+    font-family: "Montserrat";
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+.w3-display-left p {
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #f2f2f2;
+}
+
+h3 {
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #141414;
+    font-family: "Montserrat";
+}
+
+/* ===================== HOME PAGE ===================== */
+#mainBtns {
+    padding: 8px;
+    width: 100%;
+}
+
+#mainBtns .ui-btn {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px !important;
+}
+
+#findBtn,
+#favBtn {
+    width: 100%;
+}
+
+#findBtn,
+#favBtn {
+    text-align: center;
+    background: #5484ab;
+    background: #75a82f;
+    background: #2e5f7d;
+    font-weight: 100;
+    text-shadow: none;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#findBtn:hover,
+#favBtn:hover {
+    box-shadow: 0px 0px 10px 0px #3f3f3f;
+}
+
+#findBtn a,
+#favBtn a {
+    color: #f2f2f2;
+}
+
+#findBtn i,
+#favBtn i {
+    color: #f2f2f2;
+	font-size: 20px;
+	padding: 0px !important;
+}
+
+#favBtn .w3-badge {
+	width: 20px;
+	height: 20px;
+	background: black;
+	color: white;	
+}
+
+#socialmedia .social { margin-top: 20px ; }
+
+.social {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.social li {
+    margin: 20px;
+	display: inline;
+    width: 100%;
+}
+
+.shareimg {
+    width: 20px;
+    border-radius: 30%;
+    margin: 10px;
+}
+
+#share-popup {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+#share-popup .ui-header {
+    border-radius: 5px 5px 0px 0px;
+}
+
+#share-popup h1 {
+    width: 100%;
+    margin: auto;
+}
+
+#share-popup p {
+    padding: 10px 0px 10px 0px;
+}
+
+/* Map */
+.gm-style-iw { color: #3f3f3f; }
+
+/* ===================== ACCOMMODATION PAGE ===================== */
+#list-property-page h2, #list-property-page ::placeholder {
+	color: #3f3f3f !important;
+}
+
+#list-property-page h2 {
+	font-weight: 600;
+}
+
+#list-property-page input {
+	border-bottom: 1px solid lightgrey;
+}
+
+#propertyList-page .ui-input-clear,
+#favourite-page .ui-header .ui-btn {
+    width: 30px;
+}
+
+#propertyList-page #propertyList .ui-btn {
+    border: none;
+}
+
+#propertyList .ui-li-has-thumb {
+    background: white !important;
+    margin-bottom: 5px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid red;
+    color: #3f3f3f;
+}
+
+#propertyList li {
+    
+    box-shadow: 0px 0px 6px 0px lightgrey !important;
+	border-radius: 5px;
+    color: #3f3f3f;
+}
+
+.list-space {
+    padding: 10px;
+}
+
+#propertyList .ui-btn {
+    background: white !important;
+}
+
+#propertyList .ui-btn:hover {
+    color: #3f3f3f;
+}
+
+#propertyList a:active {
+    border: none;
+	box-shadow: none !important;
+}
+
+.ui-li-has-thumb, .ui-li-has-thumb .ui-btn { border: none !important; }
+
+#list-property-page .property-image {
+    width: 500px !important;
+    height: 300px !important;
+    padding: 0px !important;
+	border-radius: 100% !important;
+	border: 1px solid #adadad;
+}
+
+#propertyList-page .property-name {
+    margin-left: 10px;
+}
+
+.ui-block-a,
+.ui-block-b {
+    width: 40% !important;
+}
+
+.property-name, .property-short-description, .property-description, .property-price, .ui-block-a,
+.ui-block-b {
+    color: #3f3f3f;
+    font-size: 1.3em;
+}
+
+#propertyList-page .property-price {
+    padding: 5px 0px 0px 0px;
+}
+
+/* ===================== VIEW PROPERTY ===================== */
+#list-property-page, #view-property-page {	
+	background: #fff !important;	
+}
+
+#viewProperty-page .ui-btn {
+    padding: 10px;
+    margin-top: 10px;
+    background: #163c6a;
+    color: #ffffff;
+    width: 100%;
+}
+
+.details-container {
+    border: 1px solid lightgrey;
+    background: #fff;
+	margin-top: -10px;
+}
+
+.topbar {
+    padding: 10px;
+	background: #e9e9e9;
+	background: #eee;
+    width: 100%;
+}
+
+.topbar i, #view-property-page i {
+	color: #75a82f !important;
+	color: white !important;
+	color: #2e5f7d !important;
+}
+
+.nav-icon {
+    font-size: 26px;
+    color: #adadad;
+}
+
+.nav-iconr {
+    font-size: 22px;
+}
+
+#addfav-btn i {
+    margin-top: 5px;
+}
+
+#property-id {
+    position: absolute;
+    opacity: 1;
+}
+
+#property-info #display-content,
+#property-info #display-content img {
+    width: 100%;
+}
+
+.details-container .property-name, .details-container .property-price {
+    color: #3f3f3f;
+	font-size: 1.5em;
+}
+
+.details-container .property-price {
+    margin-bottom: 5px !important;
+    padding-bottom: 10px !important;
+	border-bottom: 1px solid #eee !important;
+	font-weight: bold;
+}
+
+
+.property-name i {
+    margin-right: 15px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    color: #3f3f3f;
+}
+
+.property-name i:hover {
+    cursor: pointer;
+}
+
+.details-container p { font-size: 0.9em !important; }
+
+.details-container .long-description { padding-bottom: 20px; }
+
+.details-container .long-description p { font-size: 1em !important; }
+
+.property-description i {
+    font-size: 18px;
+	color: #75a82f;
+	color: #2e5f7d;
+}
+
+.alert {
+    position: absolute;
+    margin-top: -42px;
+    text-align: center;
+    width: 100%;
+}
+
+.alert p {
+    padding: 10px;
+}
+
+#view-property-page #map-container { border: 1px solid lightgrey; }
+
+#view-page .ui-bar .ui-link {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: #163c6a !important;
+    text-shadow: none;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
+
+#footer .ui-navbar .ui-link {
+    color: #fff;
+    padding: 15px;
+    background: #163c6a;
+    font-size: 1em;
+}
+
+#register-btn {
+    width: 95%;
+    margin: 0 auto;
+    padding: 12px;
+    background: #163c6a;
+    border-radius: 5px;
+}
+
+#interested, #delete {
+	background: #75a82f;
+	background: #2e5f7d; 
+	color: #558bdb;
+	color: #59c7e8; ;
+	width:100px;
+	overflow: hidden;
+    color: #fff;
+    padding: 10px;
+	border-radius: 3px;
+}
+
+#delete {
+	background: red;
+	border: 1px solid #3f3f3f;
+}
+
+#delete {
+	background: red;
+	border: 1px solid #3f3f3f;
+}
+
+#interested button, #delete button {
+	background: none;
+	border: none;
+}
+
+#interested:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0px #163c6a;
+}
+
+#delete:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0px #163c6a;
+}
+
+/* ===================== FAVOURITES PAGE ===================== */
+#favlist .ui-btn {
+    padding: 8px;
+}
+
+.page-content-10 #favEmpty {
+    box-shadow: 1px 1px 4px 0px #2f5974 !important;
+    border: none !important;
+    padding-top: 30px;
+    padding-bottom: 10px;
+	color: #f2f2f2;
+}
+
+/* ===================== MAP ===================== */
+#index-page #map-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#map-page #map-container, #view-property-page #map-container {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* ===================== ACCOUNT PAGE ===================== */
+#sideMenu li img { width: 60% !important; }
+
+#account-page { color: #fff; }
+
+#account-page img {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #adadad;
+    border-radius: 100%;
+}
+
+#account-page dd { padding-top: 10px; }
+
+#account-page span { 
+	color: #adadad !important;
+	margin-bottom: 20px !important; }
+
+#account-page .ui-btn {
+    margin: 20px 0px 20px 0px;
+    background: red !important;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    color: #fff !important;
+}
+
+#account-page .ui-btn:hover {
+	background: #cf0000 !important;
+}
+
+/* ===================== LOGIN / REGISTER PAGES ===================== */
+.ui-page h1 {
+    color: #f2f2f2;
+    font-size: 4em;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-weight: bold !important;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.banner { margin-bottom: 50px; }
+
+.banner p {
+    font-size: 1.5em;
+	font-weight: bold;
+	color: #75a82f; 
+	color: #2e5f7d; 
+	color: #558bdb;
+	color: #59c7e8; }
+	
+#login-page a,	
+#register-page a {
+	color: #f2f2f2 !important;
+}
+
+#form-login,
+#form-register {
+    margin-top: 20px;
+    padding-bottom: 1.2em;
+    width: 100%;
+    margin: auto;
+}
+
+#form-login ::placeholder,
+#form-register ::placeholder {
+    color: #f2f2f2 !important;
+}
+
+#form-login .ui-btn,
+#form-register .ui-btn {
+    padding: 10px !important;
+    background: #75a82f;
+    background: #2e5f7d;
+    text-shadow: none;
+    border: 1px solid #75a82f !important;
+    border: 1px solid #2e5f7d !important;
+    color: #fff;
+}
+
+.ui-input-text, .ui-input-search,
+#form-login button,
+#form-register button, label {
+	border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid #f2f2f2 !important;
+    box-shadow: none !important;
+	background: none !important;
+	text-shadow: none;
+	margin-bottom: 30px !important;
+	color: aliceblue !important;
+}
+
+input div {
+	color: aliceblue !important;
+}
+
+#form-login .ui-btn:hover,
+#form-register .ui-btn:hover {
+    box-shadow: 0px 0px 6px 0px #75a82f !important;
+    box-shadow: 0px 0px 6px 0px #2e5f7d !important;
+}
+
+.invalid-feedback {
+	background: #3f3f3f;
+	padding: 10px 20px;
+    color: pink;
+}
+
+#form-login button,
+#form-register button {
+    border-radius: 5px;
+    margin-top: 20px !important;
+	background: #75a82f !important;
+	background: #2e5f7d !important;
+	
+}
+
+#login-page .forgot-password { margin-top: 30px !important; }
+
+.terms {
+    font-size: 0.8em;
+    font-weight: 100;
+    padding-left: 30px;
+    color: white !important;
+    background: none !important;
+    border: none !important;
+}
+
+#register-page .terms-container {
+    border: none !important;
+    background: none;
+    margin-top: -10px;
+}
+
+#login-page .ui-footer,
+#register-page .ui-footer {
+    margin-top: 30px;
+    border: none !important;
+    background: none !important;
+}
+
+.ui-footer .ui-link {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: #adadad;
+}
+
+#login-page .ui-footer .ui-link:hover,
+#resgiter-page .ui-footer .ui-link:hover {
+    color: #3f3f3f;
+}
+
+.ui-footer ul li {
+    display: inline-block !important;
+}
+
+.w3-badge { 
+	width: 40px;
+	height: 40px;
+	background: #fff; }
+
+.w3-badge i { 
+	font-size: 23px; 
+	margin-top: 8px; }
+
+.facebook { color: #558bdb; }
+.instagram { color: red; }
+.twitter { color: #59c7e8; }
+
+/* ===================== ABOUT PAGE ===================== */
+#about-page,
+#contact-page {
+    color: #3f3f3f;
+}
+
+#about-page .ui-link { text-decoration: underline; }
+
+#contact-page .ui-header .ui-btn {
+    margin-top: 0px;
+}
+
+#contact-page .ui-btn {
+    margin-top: 30px;
+    padding: 10px !important;
+}
+
+/* ===================== CONTACT PAGE ===================== */
+#textbtn,
+#emailbtn,
+#callbtn {
+    background: #fff !important;
+    border: 1px solid #011a39;
+    color: #011a39;
+}
+
+#textbtn:hover,
+#emailbtn:hover,
+#callbtn:hover {
+    background: #75a82f !important;
+    background: #2e5f7d !important;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* ===================== END CSS ===================== */
+
+/* ===================== MEDIA QUERIES ===================== */
+@media screen and (min-width: 500px) {
+}
+
+@media screen and (min-width: 600px) {
+}

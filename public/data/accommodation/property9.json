@@ -1,0 +1,16 @@
+{	
+	"id":9,
+	"name":"14 Quality Street", 
+	"image":[
+		{"name":"Outside", "imageslide":"qualityst14.jpg"}, 
+		{"name":"Bedoom 1", "imageslide":"crookst32bedroom1.jpg"}, 
+		{"name":"Kitchen", "imageslide":"crookst32bathroom.jpg"}, 
+		{"name":"Kitchen", "imageslide":"crookst32kitchen.jpg"}
+		],
+	"bedrooms":"3 small bedrooms", 
+	"bathroom":"2 small Bathrooms", 
+	"kitchen":"Small kitchen", 
+	"garden":"Front garden & garage", 
+	"lat":120255,
+	"longitude":1055050
+}
