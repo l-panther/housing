@@ -37,12 +37,6 @@ $(document).on("pagecontainerbeforeshow", function(e, ui) {
 		$.get(
             "data/accommodation/properties.json",
             function(result) {
-				var person = [];
-				person[result[i].name] = result[i].name;
-				person[] = "Doe";
-				person["age"] = 46;
-				var x = person.length;         // person.length will return 0
-				var y = person[0]; 
 				
 				for (var i = 0; i < result.length; i++) {
 					cord = [result[i].name:new google.maps.LatLng(51.89989, -0.8989898);;
